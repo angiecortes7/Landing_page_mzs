@@ -1,0 +1,377 @@
+section{
+  position: relative;
+  height: 100vh;}
+
+/*.iconFooter{
+    margin: 0 300px;
+    padding: 0 90px;
+  }
+*/
+  footer h5,a{
+    font-size: 40px;
+    font-family: lato;
+    font-size: 35px;
+    color: #ffffff;
+  }
+
+footer, section{
+  display: block;}
+
+p{
+  font-family: 'Lato', sans-serif;
+  text-align: justify;}
+
+h3{
+  font-family: 'Anton', sans-serif;
+  color: #ff2b30;}
+h2{
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.iconoMenu{
+  position: fixed;  z-index: 999;
+
+}
+/*menu hamburhuesa*/
+ul:not(.browser-default) {
+  margin-top: 150px;
+  }
+.side-nav a {
+  font-size: 18px;}
+.side-nav {
+  background-color: transparent;
+  background-image: url("../images/menu-min.png");
+  background-repeat: no-repeat;}
+  .side-nav a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+/*HOJA DE ESTILOS INICIO*/
+#inicio .brand-logo img{
+    width: 100%;
+    max-width: 230px;  }
+@media screen and (max-width: 1005px) {
+  #inicio.brand-logo img{
+    max-width:130px;
+    padding: 6px 0;
+  }
+}
+
+#inicio .indicators{
+  display: none;}
+#inicio .sc{
+  width: 40px;
+  height: 50px;
+  padding: 6px 0;
+  position: absolute;
+  margin: auto;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  z-index: 9999;}
+#inicio .sc:hover{
+  margin-top: -10px;}
+#inicio .btn-large{
+  z-index: 9;
+  font-family: lato;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #ff2b4d 0%,#fa425f 50%,#fc4361 51%,#f35335 100%);}
+#inicio .cont{
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  height: 50%;
+  bottom: 0;
+  padding: 30px;
+  z-index: 9;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 300;
+}
+#inicio nav{
+    position: relative; z-index: 9998; }
+#inicio ul{
+  margin:0;
+}
+#inicio nav ul a{
+  font-size: 20px;
+  font-family: lato;
+  margin: 0 30px;}
+#inicio section{
+    height: 100vh;
+    width: auto; }*/
+#inicio .slider-fullscreen img{
+    height: 100vh;
+    width: 100%;
+    display: none;}
+/*HOJA DE ESTILOS MYZONESCANN*/
+#mzscann .ima img{
+width: 100%;
+height: 100vh;
+}
+#mzscann .ima:before{
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 100vh solid #FFF;
+border-right: 200px solid transparent;
+position: absolute;
+display: block;
+}
+#mzscann p{
+font-size: 25px;
+padding: 0 20px;
+}
+
+#mzscann h3{
+margin: 40px 0 90px;
+text-align: center;
+}
+#mzscann .sc{
+  width: 40px;
+  height: 50px;
+  padding: 6px 0;
+  position: absolute;
+  margin: auto;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  z-index: 9999;}
+
+#mzscann .sc:hover{
+  margin-top: -10px;}
+
+@media (max-width: 1330px) {
+  #mzscann p{
+  font-size: 20px;
+  padding: 0 20px;
+  color: #000;
+  }
+  #mzscann .ima,.ima:before {
+    display: none;}
+  #mzscann{
+    height: 100vh;
+    background-image:url("../images/ima2.png");
+    background-size: cover;
+    width: 100%;
+  }
+  #mzscann h3{
+  margin: 10px 0 30px;
+  text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  #mzscann p{
+  font-size: 20px;
+  padding: 0 20px;
+  color: #fff;
+  }
+  @media (max-width: 710px) {
+      #mzscann p{
+      font-size: 17px;
+      padding: 0 20px;
+      color: #fff;
+      }}
+  #mzscann .ima,.ima:before {
+    display: none;}
+  #mzscann{
+    height: 100vh;
+    background-image:url("../images/ima-min_opt.png");
+    background-size: cover;
+    width: 100%;
+  }
+  #mzscann h3{
+  margin: 20px 0 30px;
+  text-align: center;
+  }
+}
+/*HOJA DE ESTILOS CLIENTE*/
+#clientes {
+      font-family: "lato", Helvetica, Arial, sans-serif;
+      color: #fff;
+      background-image: url("../images/cliente-min_opt.png");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      }
+#clientes p{
+        font-size: 25px;
+      }
+#clientes img.responsive-img{
+        margin-top: 5px;
+        padding-top: 40px;
+      }
+#clientes img{
+        margin-top: 20px;
+      }
+#clientes .sc{
+  width: 40px;
+  height: 50px;
+  padding: 6px 0;
+  position: absolute;
+  margin: auto;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  z-index: 9999;}
+
+#clientes .sc:hover{
+  margin-top: -10px;}
+@media (max-width: 768px) {
+    #clientes p{
+          font-size: 18px;
+
+        }
+        #clientes div img{
+          display: none;
+
+        }
+      }
+/*HOJA DE ESTILOS RESTAURANTE*/
+#restaurante .ima img{
+width: 100%;
+height: 100vh;
+}
+#restaurante .ima:before{
+content: "";
+width: 0;
+height: 0;
+border-bottom: 100vh solid #FFF;
+border-right: 200px solid transparent;
+position: absolute;
+display: block;
+}
+#restaurante p{
+font-size: 25px;
+padding: 0 10px;
+}
+#restaurante h3{
+margin: 40px 0 90px;
+text-align: center;
+}
+#restaurante .sc{
+width: 40px;
+height: 40px;
+padding: 6px 0;
+position: absolute;
+margin: auto;
+bottom: 50px;
+right: 0;
+left: 0;
+}
+#restaurante .sc:hover{
+margin-top: -10px;}
+
+@media (max-width: 1330px) {
+  #restaurante p{
+  font-size: 18px;
+  padding: 0 20px;
+  color: #000;
+  }
+  #restaurante .ima,.ima:before {
+    display: none;}
+  #restaurante{
+    height: 100vh;
+    background-image:url("../images/cocina-min2.png");
+    background-size: cover;
+    width: 100%;
+  }
+  #restaurante h3{
+  margin: 10px 0 20px;
+  text-align: center;
+  }
+  }
+@media (max-width: 800px) {
+#restaurante p{
+font-size: 18px;
+padding: 0 20px;
+color: #fff;
+}
+#restaurante .sc{
+  bottom: 20px;
+}
+#restaurante .ima,.ima:before {
+  display: none;}
+#restaurante{
+  height: 100vh;
+  background-image:url("../images/cocina-min3.png");
+  background-size: cover;
+  width: 100%;
+}
+#restaurante h3{
+margin: 20px 0 20px;
+text-align: center;
+}
+}
+@media (max-width: 710px) {
+    #restaurante p{
+    font-size: 15px;
+    padding: 0 20px;
+    color: #fff;
+    }}
+/*quienes somos*/
+#team1 {
+      background-image: url("../images/team1-min.png");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+#team1 #titulo{
+    display: block;
+  	color: #fff;
+  	text-decoration: none;
+  	font-family: 'Lato', sans-serif;
+    font-size: 60px;
+      text-align: center;
+      }
+#team1 h3{
+      display: block;
+    	color: #ff2b4d;
+    	padding: 8px 16px;
+    	text-decoration: none;
+        font-weight: bold;
+    	font-family: 'Bernadette Rough', sans-serif;
+      font-size: 50px;
+      text-align: center;
+}
+#team1 p{
+      font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 1px;
+}
+#team1 .sc{
+width: 40px;
+height: 40px;
+padding: 6px 0;
+position: absolute;
+margin: auto;
+bottom: 20px;
+right: 0;
+left: 0;
+z-index: 9999;}
+#team1 .sc:hover{
+margin-top: -10px;}
+
+@media only screen and (max-width: 800px) {
+#team1{
+  background-image: url("../images/team1-min.png");
+  height: 100vh;
+}
+  #team1 h3{
+    font-size: 25px;
+    color: #ff2b4d;
+    text-align: center;
+  }
+  #team1 #titulo{
+        font-size: 25px;
+        color: #fff;
+        padding-top: 100px;}
+  #team1 .sc{
+    display: none;
+}}
