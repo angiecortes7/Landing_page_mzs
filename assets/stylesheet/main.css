@@ -65,12 +65,12 @@ ul:not(.browser-default) {
   padding: 6px 0;
   position: absolute;
   margin: auto;
-  bottom: 50px;
+  bottom: 10px;
   right: 0;
   left: 0;
   z-index: 9999;}
 #inicio .sc:hover{
-  margin-top: -10px;}
+  margin-bottom:  -7px;}
 #inicio .btn-large{
   z-index: 9;
   font-family: lato;
@@ -102,11 +102,12 @@ ul:not(.browser-default) {
   margin: 0 30px;}
 #inicio section{
     height: 100vh;
-    width: auto; }*/
+    width: auto; }
 #inicio .slider-fullscreen img{
     height: 100vh;
     width: 100%;
     display: none;}
+
 /*HOJA DE ESTILOS MYZONESCANN*/
 #mzscann .ima img{
 width: 100%;
@@ -117,18 +118,18 @@ height: 100vh;
   width: 0;
   height: 0;
   border-bottom: 100vh solid #FFF;
-border-right: 200px solid transparent;
-position: absolute;
-display: block;
+  border-right: 200px solid transparent;
+  position: absolute;
+  display: block;
 }
 #mzscann p{
-font-size: 25px;
+font-size: 20px;
 padding: 0 20px;
 }
 
 #mzscann h3{
-margin: 40px 0 90px;
-text-align: center;
+  margin: 35px 0 50px;
+  text-align: center;
 }
 #mzscann .sc{
   width: 40px;
@@ -136,15 +137,15 @@ text-align: center;
   padding: 6px 0;
   position: absolute;
   margin: auto;
-  bottom: 50px;
+  bottom: 10px;
   right: 0;
   left: 0;
   z-index: 9999;}
 
 #mzscann .sc:hover{
-  margin-top: -10px;}
+  margin-bottom: -7px;}
 
-@media (max-width: 1330px) {
+/*@media (max-width: 1330px) {
   #mzscann p{
   font-size: 20px;
   padding: 0 20px;
@@ -163,19 +164,14 @@ text-align: center;
   text-align: center;
   }
 }
-
+*/
 @media (max-width: 800px) {
   #mzscann p{
   font-size: 20px;
   padding: 0 20px;
   color: #fff;
   }
-  @media (max-width: 710px) {
-      #mzscann p{
-      font-size: 17px;
-      padding: 0 20px;
-      color: #fff;
-      }}
+
   #mzscann .ima,.ima:before {
     display: none;}
   #mzscann{
@@ -189,6 +185,12 @@ text-align: center;
   text-align: center;
   }
 }
+@media (max-width: 710px) {
+    #mzscann p{
+    font-size: 17px;
+    padding: 0 20px;
+    color: #fff;
+    }}
 /*HOJA DE ESTILOS CLIENTE*/
 #clientes {
       font-family: "lato", Helvetica, Arial, sans-serif;
@@ -200,7 +202,7 @@ text-align: center;
       height: 100vh;
       }
 #clientes p{
-        font-size: 25px;
+        font-size: 20px;
       }
 #clientes img.responsive-img{
         margin-top: 5px;
@@ -232,88 +234,68 @@ text-align: center;
 
         }
       }
-/*HOJA DE ESTILOS RESTAURANTE*/
+/*HOJA DE ESTILOS restaurante*/
 #restaurante .ima img{
-width: 100%;
-height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 #restaurante .ima:before{
-content: "";
-width: 0;
-height: 0;
-border-bottom: 100vh solid #FFF;
-border-right: 200px solid transparent;
-position: absolute;
-display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 100vh solid #FFF;
+  border-right: 200px solid transparent;
+  position: absolute;
+  display: block;
 }
 #restaurante p{
-font-size: 25px;
-padding: 0 10px;
-}
-#restaurante h3{
-margin: 40px 0 90px;
-text-align: center;
-}
-#restaurante .sc{
-width: 40px;
-height: 40px;
-padding: 6px 0;
-position: absolute;
-margin: auto;
-bottom: 50px;
-right: 0;
-left: 0;
-}
-#restaurante .sc:hover{
-margin-top: -10px;}
-
-@media (max-width: 1330px) {
-  #restaurante p{
-  font-size: 18px;
+  font-size: 20px;
   padding: 0 20px;
-  color: #000;
-  }
-  #restaurante .ima,.ima:before {
-    display: none;}
-  #restaurante{
-    height: 100vh;
-    background-image:url("../images/cocina-min2.png");
-    background-size: cover;
-    width: 100%;
-  }
-  #restaurante h3{
-  margin: 10px 0 20px;
-  text-align: center;
-  }
-  }
-@media (max-width: 800px) {
-#restaurante p{
-font-size: 18px;
-padding: 0 20px;
-color: #fff;
-}
-#restaurante .sc{
-  bottom: 20px;
-}
-#restaurante .ima,.ima:before {
-  display: none;}
-#restaurante{
-  height: 100vh;
-  background-image:url("../images/cocina-min3.png");
-  background-size: cover;
-  width: 100%;
 }
 #restaurante h3{
-margin: 20px 0 20px;
-text-align: center;
+  margin: 35px 0 50px;
+  text-align: center;
 }
-}
-@media (max-width: 710px) {
+#restaurante .sc{
+  width: 40px;
+  height: 50px;
+  padding: 6px 0;
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  z-index: 9999;}
+
+#restaurante .sc:hover{
+  margin-bottom: -7px;}
+
+  @media (max-width: 800px) {
     #restaurante p{
-    font-size: 15px;
+    font-size: 20px;
     padding: 0 20px;
     color: #fff;
-    }}
+    }
+
+    #restaurante .ima,.ima:before {
+      display: none;}
+    #restaurante{
+      height: 100vh;
+      background-image:url("../images/ima-min_opt.png");
+      background-size: cover;
+      width: 100%;
+    }
+    #restaurante h3{
+    margin: 20px 0 30px;
+    text-align: center;
+    }
+  }
+  @media (max-width: 710px) {
+      #restaurante p{
+      font-size: 17px;
+      padding: 0 20px;
+      color: #fff;
+      }}
 /*quienes somos*/
 #team1 {
       background-image: url("../images/team1-min.png");
@@ -345,7 +327,7 @@ text-align: center;
     text-align: center;
     margin: 1px;
 }
-#team1 .sc{
+/*#team1 .sc{
 width: 40px;
 height: 40px;
 padding: 6px 0;
@@ -357,7 +339,7 @@ left: 0;
 z-index: 9999;}
 #team1 .sc:hover{
 margin-top: -10px;}
-
+*/
 @media only screen and (max-width: 800px) {
 #team1{
   background-image: url("../images/team1-min.png");
