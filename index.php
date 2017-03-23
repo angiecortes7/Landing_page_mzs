@@ -19,8 +19,8 @@
       <?php include_once("include/myzonescann.html");?>
       <?php include_once("include/cliente.html");?>
       <?php include_once("include/restaurante.html");?>
-      
-
+      <?php include_once("include/quienes_somos.html");?>
+      <?php include_once("include/footer.html");?>
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

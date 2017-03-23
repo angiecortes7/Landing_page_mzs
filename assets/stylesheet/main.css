@@ -1,26 +1,34 @@
-section{
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  } section{
   position: relative;
   height: 100vh;}
 
-/*.iconFooter{
-    margin: 0 300px;
-    padding: 0 90px;
-  }
-*/
-  footer h5,a{
+
+a{
     font-size: 40px;
     font-family: lato;
     font-size: 35px;
     color: #ffffff;
   }
 
-footer, section{
+ section{
   display: block;}
 
 p{
   font-family: 'Lato', sans-serif;
   text-align: justify;}
-
+h5{
+  font-size: 30px;
+    color: #fff;
+    font-family: lato;
+}
 h3{
   font-family: 'Anton', sans-serif;
   color: #ff2b30;}
@@ -47,9 +55,22 @@ ul:not(.browser-default) {
     background-color: rgba(0,0,0,0.1);
 }
 /*HOJA DE ESTILOS INICIO*/
+#inicio h5{
+  font-size: 25px;
+}
+#inicio nav i.material-icons {
+    display: none;}
+
+@media screen and (max-width: 805px) {
+  #inicio h5{
+    font-size: 18px;
+  }
+
+  }
 #inicio .brand-logo img{
     width: 100%;
     max-width: 230px;  }
+
 @media screen and (max-width: 1005px) {
   #inicio.brand-logo img{
     max-width:130px;
@@ -71,6 +92,12 @@ ul:not(.browser-default) {
   z-index: 9999;}
 #inicio .sc:hover{
   margin-bottom:  -7px;}
+@media(max-width:680px){
+    #inicio a.btn-large{
+      font-size: 15px;
+      padding: 2px 10px;
+    }
+  }
 #inicio .btn-large{
   z-index: 9;
   font-family: lato;
