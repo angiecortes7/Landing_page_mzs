@@ -135,7 +135,7 @@ ul:not(.browser-default) {
     width: 100%;
     display: none;}
 
-/*HOJA DE ESTILOS MYZONESCANN*/
+/*************HOJA DE ESTILOS MYZONESCANN*************************/
 #mzscann .ima img{
 width: 100%;
 height: 100vh;
@@ -151,7 +151,7 @@ height: 100vh;
 }
 
 #mzscann p{
-font-size: 20px;
+font-size: 25px;
 padding: 0 20px;
 color: #000
 }
@@ -190,7 +190,7 @@ color: #000
     text-align: center;
 }
 #mzscann p{
-font-size: 18px;
+font-size: 20px;
 padding: 0 20px;
 color: #fff;
 }
@@ -203,11 +203,11 @@ color: #fff;
       color: #fff;
       }}
 
-/*HOJA DE ESTILOS CLIENTE*/
+/**************************HOJA DE ESTILOS CLIENTE********************************/
 #clientes {
       font-family: "lato", Helvetica, Arial, sans-serif;
       color: #fff;
-      background-image: url("../images/cliente-min_opt.png");
+      background-image: url("../images/cliente-min2.png");
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -246,7 +246,7 @@ color: #fff;
 
         }
       }
-/*HOJA DE ESTILOS restaurante*/
+/*****************************HOJA DE ESTILOS restaurante********************************/
 #restaurante .ima img{
   width: 100%;
   height: 100vh;
@@ -308,9 +308,9 @@ color: #fff;
       padding: 0 20px;
       color: #fff;
       }}
-/*quienes somos*/
+/***********************quienes somos**************************/
 #team1 {
-      background-image: url("../images/team1-min.png");
+      background-image: url("../images/equipo1.png");
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -354,10 +354,10 @@ margin-top: -10px;}
 */
 @media only screen and (max-width: 800px) {
 #team1{
-  background-image: url("../images/team1-min.png");
+  background-image: url("../images/equipo1.png");
   height: 100vh;
 }
-  #team1 h3{
+  #team1 #titulo2{
     font-size: 25px;
     color: #ff2b4d;
     text-align: center;
@@ -365,7 +365,8 @@ margin-top: -10px;}
   #team1 #titulo{
         font-size: 25px;
         color: #fff;
-        padding-top: 100px;}
+        padding-top: 100px;
+      margin-top: -1px;}
   #team1 .sc{
     display: none;
 }}
