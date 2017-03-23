@@ -176,9 +176,12 @@ color: #000
 #mzscann .sc:hover{
   margin-bottom: -7px;}
 
-
-
-@media (max-width: 800px) {
+@media only screen and (max-width: 1112px) and (min-width: 820px) {
+  #mzscann p{
+    font-size: 21px;
+  }
+}
+@media (max-width: 821px) {
   #mzscann{
     height: 100vh;
     background-image: url("../images/mzs.png");
@@ -218,13 +221,34 @@ color: #fff;
 #clientes p{
         font-size: 25px;
       }
-@media screen and (max-width: 1005px) {
+@media only screen and (max-width: 1333px) and (min-width: 1130px) {
+  #clientes p {
+    font-size: 20px;}
+    }
+@media only screen and (max-width: 1112px) and (min-width: 985px) {
   #clientes img.logo{
   max-width:130px;
   padding: 9px 0;
         }
   #clientes img{   max-width: 60px;
       }
+  #clientes p {
+    font-size: 20px;}
+    }
+
+@media screen and (max-width: 1005px) {
+  #clientes img.logo{
+  max-width:130px;
+  padding: 9px 0;
+        }
+
+  #clientes img{   max-width: 60px;
+      }
+    }
+
+@media only screen and (max-width: 837px) and (min-width: 799px) {
+  #clientes p {
+    font-size: 20px;}
     }
 @media screen and (max-width: 500px) {
   #clientes img{   max-width: 40px;
@@ -256,10 +280,6 @@ color: #fff;
           font-size: 18px;
 
         }
-        /*#clientes div img{
-          display: none;
-
-        }*/
       }
 
 /*****************************HOJA DE ESTILOS restaurante********************************/
