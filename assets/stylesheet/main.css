@@ -149,9 +149,11 @@ height: 100vh;
   position: absolute;
   display: block;
 }
+
 #mzscann p{
 font-size: 20px;
 padding: 0 20px;
+color: #000
 }
 
 #mzscann h3{
@@ -172,52 +174,35 @@ padding: 0 20px;
 #mzscann .sc:hover{
   margin-bottom: -7px;}
 
-/*@media (max-width: 1330px) {
-  #mzscann p{
-  font-size: 20px;
-  padding: 0 20px;
-  color: #000;
-  }
-  #mzscann .ima,.ima:before {
-    display: none;}
-  #mzscann{
-    height: 100vh;
-    background-image:url("../images/ima2.png");
-    background-size: cover;
-    width: 100%;
-  }
-  #mzscann h3{
-  margin: 10px 0 30px;
-  text-align: center;
-  }
-}
-*/
-@media (max-width: 800px) {
-  #mzscann p{
-  font-size: 20px;
-  padding: 0 20px;
-  color: #fff;
-  }
 
-  #mzscann .ima,.ima:before {
-    display: none;}
+
+@media (max-width: 800px) {
   #mzscann{
     height: 100vh;
-    background-image:url("../images/ima-min_opt.png");
+    background-image: url("../images/mzs.png");
     background-size: cover;
     width: 100%;
-  }
-  #mzscann h3{
-  margin: 20px 0 30px;
-  text-align: center;
-  }
 }
-@media (max-width: 710px) {
-    #mzscann p{
-    font-size: 17px;
-    padding: 0 20px;
-    color: #fff;
-    }}
+  #mzscann .ima,.ima:before {
+    display: none;}
+  #mzscann h3{
+    margin: 20px 0 30px;
+    text-align: center;
+}
+#mzscann p{
+font-size: 18px;
+padding: 0 20px;
+color: #fff;
+}
+}
+
+  @media (max-width: 321px) {
+      #mzscann p{
+      font-size: 13px;
+      padding: 0 20px;
+      color: #fff;
+      }}
+
 /*HOJA DE ESTILOS CLIENTE*/
 #clientes {
       font-family: "lato", Helvetica, Arial, sans-serif;
@@ -244,13 +229,13 @@ padding: 0 20px;
   padding: 6px 0;
   position: absolute;
   margin: auto;
-  bottom: 50px;
+  bottom: 10px;
   right: 0;
   left: 0;
   z-index: 9999;}
-
 #clientes .sc:hover{
-  margin-top: -10px;}
+  margin-bottom:  -7px;}
+
 @media (max-width: 768px) {
     #clientes p{
           font-size: 18px;
