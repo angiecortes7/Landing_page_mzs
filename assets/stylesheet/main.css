@@ -41,7 +41,7 @@ h2{
   position: fixed;  z-index: 999;
 
 }
-/*menu hamburhuesa*/
+/***************menu hamburguesa************/
 ul:not(.browser-default) {
   margin-top: 130px;
   }
@@ -56,7 +56,7 @@ ul:not(.browser-default) {
   .side-nav a:hover {
     background-color: rgba(0,0,0,0.1);
 }
-/*HOJA DE ESTILOS INICIO*/
+/************HOJA DE ESTILOS INICIO************/
 #inicio h5{
   font-size: 25px;
 }
@@ -223,7 +223,9 @@ color: #fff;
   max-width:130px;
   padding: 9px 0;
         }
+  #clientes img{   max-width: 60px;
       }
+    }
 /*#clientes img.responsive-img{
         margin-top: 5px;
         padding-top: 40px;
