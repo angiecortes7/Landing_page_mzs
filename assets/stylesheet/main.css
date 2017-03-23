@@ -226,6 +226,11 @@ color: #fff;
   #clientes img{   max-width: 60px;
       }
     }
+@media screen and (max-width: 500px) {
+  #clientes img{   max-width: 40px;
+    margin-left: -20px;
+      }
+    }
 /*#clientes img.responsive-img{
         margin-top: 5px;
         padding-top: 40px;
