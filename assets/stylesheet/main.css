@@ -157,7 +157,6 @@ font-size: 25px;
 padding: 0 20px;
 color: #000
 }
-
 #mzscann h3{
   margin: 35px 0 50px;
   text-align: center;
@@ -203,7 +202,7 @@ color: #fff;
 
   @media (max-width: 321px) {
       #mzscann p{
-      font-size: 13px;
+      font-size: 17px;
       padding: 0 20px;
       color: #fff;
       }}
@@ -255,37 +254,31 @@ color: #fff;
     margin-left: -20px;
       }
     }
-/*#clientes img.responsive-img{
-        margin-top: 5px;
-        padding-top: 40px;
-      }*/
-#clientes img{
+  #clientes img{
         margin-top: 20px;
       }
-#clientes .sc{
-  width: 40px;
-  height: 50px;
-  padding: 6px 0;
-  position: absolute;
-  margin: auto;
-  bottom: 25px;
-  right: 0;
-  left: 0;
-  z-index: 9999;}
-#clientes .sc:hover{
-  margin-bottom:  -7px;}
+  #clientes .sc{
+    width: 40px;
+    height: 50px;
+    padding: 6px 0;
+    position: absolute;
+    margin: auto;
+    bottom: 25px;
+    right: 0;
+    left: 0;
+    z-index: 9999;}
+  #clientes .sc:hover{
+    margin-bottom:  -7px;}
 
 @media (max-width: 768px) {
     #clientes p{
-          font-size: 18px;
-
+          font-size: 16px;
         }
-      }
-
+    }
 /*****************************HOJA DE ESTILOS restaurante********************************/
 #restaurante .ima img{
-  width: 100%;
-  height: 100vh;
+width: 100%;
+height: 100vh;
 }
 #restaurante .ima:before{
   content: "";
@@ -296,9 +289,11 @@ color: #fff;
   position: absolute;
   display: block;
 }
+
 #restaurante p{
-  font-size: 20px;
-  padding: 0 20px;
+font-size: 25px;
+padding: 0 20px;
+color: #000
 }
 #restaurante h3{
   margin: 35px 0 50px;
@@ -318,32 +313,38 @@ color: #fff;
 #restaurante .sc:hover{
   margin-bottom: -7px;}
 
-  @media (max-width: 800px) {
-    #restaurante p{
+@media only screen and (max-width: 1112px) and (min-width: 820px) {
+  #restaurante p{
     font-size: 20px;
-    padding: 0 20px;
-    color: #fff;
-    }
-
-    #restaurante .ima,.ima:before {
-      display: none;}
-    #restaurante{
-      height: 100vh;
-      background-image:url("../images/ima-min_opt.png");
-      background-size: cover;
-      width: 100%;
-    }
-    #restaurante h3{
+  }
+}
+@media (max-width: 821px) {
+  #restaurante{
+    height: 100vh;
+    background-image: url("../images/movil_rest.png");
+    background-size: cover;
+    width: 100%;
+}
+  #restaurante .ima,.ima:before {
+    display: none;}
+  #restaurante h3{
     margin: 20px 0 30px;
     text-align: center;
-    }
+}
+#restaurante p{
+font-size: 18.5px;
+padding: 0 20px;
+color: #fff;
+margin-top: 10px;
+}
+}
+@media (max-width: 321px) {
+  #restaurante p{
+    font-size: 14px;
+    padding: 0 20px;
+    color: #fff;
   }
-  @media (max-width: 710px) {
-      #restaurante p{
-      font-size: 17px;
-      padding: 0 20px;
-      color: #fff;
-      }}
+}
 /***********************quienes somos**************************/
 #team1 {
       background-image: url("../images/equipo1.png");
@@ -375,19 +376,6 @@ color: #fff;
     text-align: center;
     margin: 1px;
 }
-/*#team1 .sc{
-width: 40px;
-height: 40px;
-padding: 6px 0;
-position: absolute;
-margin: auto;
-bottom: 20px;
-right: 0;
-left: 0;
-z-index: 9999;}
-#team1 .sc:hover{
-margin-top: -10px;}
-*/
 @media only screen and (max-width: 800px) {
 #team1{
   background-image: url("../images/equipo1.png");
