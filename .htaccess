@@ -1,7 +1,0 @@
-RewriteEngine on
-
-RewriteRule ^proyecto_grado/landing_page/inicioMZS.net$             views/index.html
-RewriteRule ^proyecto_grado/landing_page/MyZoneScann.aspx$      include/myzonescann.html
-RewriteRule ^proyecto_grado/landing_page/nuestros_clientes.aspx$  include/cliente.html
-RewriteRule ^proyecto_grado/prueba/seccion/restaurante.aspx$             include/restaurante.html
-RewriteRule ^proyecto_grado/Grupo_Desarrollo.aspx$             include/quienes_somos.html

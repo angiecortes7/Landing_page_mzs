@@ -42,6 +42,37 @@ h2{
 
 }
 /***************menu hamburguesa************/
+
+.hamburger-menu{
+  width: 50px;
+  height: 80px;
+  padding: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1000;
+}
+
+.hamburger-menu div{
+  background-color: #ff2b4d;
+  width: 25px;
+  height: 5px;
+  margin-bottom:5px;
+  transition: all 0.2s ease-out;
+}
+
+.hamburger-menu:hover > .first, .open .first {
+  transform: translateY(10px) rotate(45deg);
+
+}
+
+.hamburger-menu:hover > .second, .open .second {
+  opacity: 0;
+}
+
+.hamburger-menu:hover > .third, .open .third {
+  transform: translateY(-10px) rotate(-45deg);
+}
 ul:not(.browser-default) {
   margin-top: 130px;
   }
@@ -52,10 +83,13 @@ ul:not(.browser-default) {
 .side-nav {
   background-color: transparent;
   background-image: url("../images/menu-min1.png");
-  background-repeat: no-repeat;}
+  background-repeat: no-repeat;
+  box-shadow:none;
+}
   .side-nav a:hover {
     background-color: rgba(0,0,0,0.1);
-}
+
+}*/
 /************HOJA DE ESTILOS INICIO************/
 #inicio h5{
   font-size: 25px;
@@ -91,7 +125,8 @@ ul:not(.browser-default) {
   bottom: 10px;
   right: 0;
   left: 0;
-  z-index: 9999;}
+  z-index: 700;
+  }
 #inicio .sc:hover{
   margin-bottom:  -7px;}
 @media(max-width:680px){
@@ -126,7 +161,7 @@ ul:not(.browser-default) {
   margin:0;
 }
 #inicio nav ul a{
-  font-size: 20px;
+  font-size: 26px;
   font-family: lato;
   margin: 0 30px;}
 #inicio section{
@@ -170,7 +205,8 @@ color: #000
   bottom: 10px;
   right: 0;
   left: 0;
-  z-index: 9999;}
+  z-index: 700;
+  }
 
 #mzscann .sc:hover{
   margin-bottom: -7px;}
@@ -266,7 +302,8 @@ color: #fff;
     bottom: 25px;
     right: 0;
     left: 0;
-    z-index: 9999;}
+    z-index: 700;
+    }
   #clientes .sc:hover{
     margin-bottom:  -7px;}
 
@@ -308,7 +345,8 @@ color: #000
   bottom: 10px;
   right: 0;
   left: 0;
-  z-index: 9999;}
+  z-index: 700;
+  }
 
 #restaurante .sc:hover{
   margin-bottom: -7px;}
@@ -359,6 +397,7 @@ margin-top: 10px;
   	font-family: 'Lato', sans-serif;
     font-size: 60px;
       text-align: center;
+        margin-top: -1px;;
       }
 #team1 #titulo2{
       display: block;
