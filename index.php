@@ -1,5 +1,5 @@
 <?php
-header("Cache-Control: public, max-age=2592000, ETag: '15f0fff99ed5aae4edffdd6496d7131f'"); 
+header("Cache-Control: public, max-age=2592000, ETag: '15f0fff99ed5aae4edffdd6496d7131f'");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -14,7 +14,7 @@ header("Cache-Control: public, max-age=2592000, ETag: '15f0fff99ed5aae4edffdd649
     <link rel="stylesheet" type="text/css" href="assets/stylesheet/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/icono.ico">
-    <title>MyZoneScann</title>
+    <title>MyZoneScann-Promocional</title>
   </head>
   <body>
     <?php include_once("include/menu-hamburguesa.html");?>

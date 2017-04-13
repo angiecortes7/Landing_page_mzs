@@ -41,6 +41,68 @@ h2{
   position: fixed;  z-index: 999;
 
 }
+
+/***************footer************/
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    margin-left: 350px;
+  }
+.fa{
+  margin-left: 40px;
+}
+@media only screen and (max-width: 1156px) and (min-width: 811px) {
+  .fa-facebook-f:before, .fa-facebook:before {
+      content: "\f09a";
+      margin-left: 250px;
+    }
+  }
+@media only screen and (max-width: 810px) and (min-width: 786px) {
+  .fa-facebook-f:before, .fa-facebook:before {
+      content: "\f09a";
+      margin-left: 200px;
+    }
+  }
+  @media only screen and (max-width: 780px) and (min-width: 620px) {
+    .fa-facebook-f:before, .fa-facebook:before {
+        content: "\f09a";
+        margin-left: 150px;
+      }
+    }
+@media only screen and (max-width: 610px) and (min-width: 536px) {
+  .fa-facebook-f:before, .fa-facebook:before {
+      content: "\f09a";
+      margin-left: 100px;
+    }
+  }
+@media only screen and (max-width: 535px) and (min-width: 362px) {
+  .fa-facebook-f:before, .fa-facebook:before {
+      content: "\f09a";
+      margin-left: 70px;
+    }
+  }
+
+
+@media only screen and (max-width: 455px) and (min-width: 361px) {
+  .fa-facebook-f:before, .fa-facebook:before {
+      content: "\f09a";
+      margin-left: 50px;
+    }
+  .fa{
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    margin-left: 13px;
+}
+  .fa{
+    margin-left: 40px;
+  }
+}
+
+
 /***************menu hamburguesa************/
 
 .hamburger-menu{
