@@ -4,6 +4,40 @@ body {
     flex-direction: column;
   }
 
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #fe012e;
+  border: 0px none #ffffff;
+  border-radius: 44px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #eb3458;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ea154a;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #808080;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
   main {
     flex: 1 0 auto;
   } section{
@@ -53,7 +87,7 @@ h2{
 @media only screen and (max-width: 1156px) and (min-width: 811px) {
   .fa-facebook-f:before, .fa-facebook:before {
       content: "\f09a";
-      margin-left: 250px;
+      margin-left: 200px;
     }
   }
 @media only screen and (max-width: 810px) and (min-width: 786px) {
