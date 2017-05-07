@@ -84,6 +84,7 @@ h2{
 .fa{
   margin-left: 40px;
 }
+
 @media only screen and (max-width: 1156px) and (min-width: 811px) {
   .fa-facebook-f:before, .fa-facebook:before {
       content: "\f09a";
@@ -466,7 +467,7 @@ color: #000
     text-align: center;
 }
 #restaurante p{
-font-size: 18.5px;
+font-size: 18px;
 padding: 0 20px;
 color: #fff;
 margin-top: 10px;
@@ -511,6 +512,19 @@ margin-top: 10px;
     text-align: center;
     margin: 1px;
 }
+#team1 img.sc{
+  width: 40px;
+  height: 50px;
+  padding: 6px 0;
+  position: absolute;
+  margin: auto;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  z-index: 700;
+  }
+#team1 img.sc:hover{
+  margin-bottom:  -7px;}
 @media only screen and (max-width: 800px) {
 #team1{
   background-image: url("../images/equipo1.png");
