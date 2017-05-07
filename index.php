@@ -14,10 +14,20 @@ header("Cache-Control: public, max-age=2592000, ETag: '15f0fff99ed5aae4edffdd649
     <link rel="stylesheet" type="text/css" href="assets/stylesheet/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/icono.ico">
+
     <title>MyZoneScann-Tu lugar</title>
-    
+    <script type="text/javascript" src="assets/js/wow.js"></script>
+    <script type="text/javascript">
+			wow = new WOW({
+				boxClass:     'wow',
+				animateClass: 'animated',
+				offset:       0,
+			})
+			wow.init();
+		</script>
   </head>
   <body>
+
     <?php include_once("include/menu-hamburguesa.html");?>
     <div class="container-fluid">
       <?php include_once("views/inicio.html");?>
@@ -30,6 +40,14 @@ header("Cache-Control: public, max-age=2592000, ETag: '15f0fff99ed5aae4edffdd649
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+			wow = new WOW({
+				boxClass:     'wow',
+				animateClass: 'animated',
+				offset:       0,
+			})
+			wow.init();
+		</script>
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
